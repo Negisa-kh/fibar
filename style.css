@@ -1,0 +1,126 @@
+@font-face{
+  font-family: 'prata';
+  src: url('font/Prata-Regular.ttf') format('truetype'),
+  url('font/Prata-Regular.ttf') format('ttf'),
+  url('font/Prata-Regular.ttf') format('ttf');
+ }
+ body{
+  font-family: 'prata';
+ }
+.container.bck{
+  background-color: #F1B4BB;
+  -webkit-text-size-adjust: 100%;
+  max-width:  2636px;
+}
+.moj img{
+width:100%;
+/* height: 400px; */
+}
+.btnt{
+background-color: #3403e5;
+margin: 25px;
+width: 120px;
+height: 50px;
+border: none;
+border-radius:1rem ;
+color: #fff;
+font-size: 20px;
+}
+/* .textq{
+  position: relative;
+  left: 220px;
+  display: inline-block;
+  bottom: 35px;
+} */
+.row.siza img{
+  width: 45px;
+  height: 45px;
+
+}
+.text-title h2{
+font-size:39px;
+
+}
+
+.texico .icon {
+  background-color: #1FCAC5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 25px;
+}
+.texty {
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+}
+
+.vc h5{
+color: #3403e5;
+}
+
+/* button  .action {
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 0.25rem;
+
+} */
+.btn {
+  color: purple;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid purple;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.btn:hover {
+  color: rgb(83, 83, 83);
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: purple;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.btn:hover::before {
+  width: 160%;
+}
+.footer-header{
+  border-bottom: 3px solid;
+  height: 35px;
+  }
+  .footer-link{
+  text-decoration: none;
+  color: #000;
+  }
+  h6.fw-bold.footer-header.w-75 {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+.cardtitle h5{
+}
+
+
+
+
+
